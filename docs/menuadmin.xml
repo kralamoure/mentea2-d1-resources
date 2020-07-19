@@ -1,0 +1,49 @@
+<menu>
+    <item type="newColumn"/> <!-- RETRO -->
+    <item type="static" label="Admin menu (left click)"/>
+    <item type="menu" label="Variables">
+        <item type="" label="Today's date: %et"/> <!-- RETRO -->
+        <item type="" label="Yesterday's date: %ey"/> <!-- RETRO -->
+        <item type="" label="Guild: %g"/>
+        <item type="" label="Cell id: %c"/>
+        <item type="" label="Name: %p"/>
+        <item type="" label="Own name: %n"/>
+        <item type="" label="Date: %d"/>
+        <item type="" label="Time: %h"/>
+        <item type="" label="Short time: %t"/>
+        <item type="" label="Console prompt: %s"/>
+        <item type="" label="Map id: %m"/>
+        <item type="" label="Version: %v"/>
+    </item>
+    <item type="menu" label="Actions">
+        <item type="copyCommand" label="Copy command" command="help"/> <!-- RETRO -->
+        <item type="sendCommand" label="Send command" command="help"/>
+        <item type="sendChat" label="Send chat" command="hello"/>
+        <item type="prepareCommand" label="Prepare command" command="help"/>
+        <item type="prepareChat" label="Prepare chat" command="hello"/>
+        <item type="clearConsole" label="Clear console"/>
+        <item type="openConsole" label="Open console"/>
+        <item type="closeConsole" label="Close console"/>
+        <item type="move" label="Move" cell="300" dirs="true"/>
+        <item type="emote" label="Emote" num="1"/>
+        <item type="smiley" label="Smiley" num="1"/>
+        <item type="direction" label="Direction" num="0"/>
+        <item type="batch" label="Batch" repeat="2">
+            <item type="sendChat" command="1" delay="1000"/>
+            <item type="sendChat" command="2" delay="1000"/>
+            <item type="sendChat" command="3" delay="1000"/>
+        </item>
+        <item type="summoner" label="Item summoner"/>
+        <item type="sendCommand" label="Item selector" command="selectItem #item"/>
+        <item type="sendCommand" label="Look selector" command="selectLook #look"/>
+        <item type="sendCommand" label="Monster selector" command="selectMonster #monster"/>
+    </item>
+    <item type="menuDebug" label="Debug">
+    </item>
+    <item type="loadXML" label="Reload"/>
+    <item type="startup">
+        <item type="sendChat" command="hello"/>
+    </item>
+    <item type="prestartup"> <!-- RETRO -->
+    </item>
+</menu>

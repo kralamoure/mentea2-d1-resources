@@ -1,0 +1,72 @@
+[LOGIN] <-- LoginServerHello
+[LOGIN] --> ClientVersion
+[LOGIN] --> AccountLogin
+[LOGIN] --> GetQueuePosition
+[LOGIN] <-- QueueDetails
+[LOGIN] <-- AccountNickname
+[LOGIN] <-- AccountCommunity
+[LOGIN] <-- AllServerList
+[LOGIN] <-- AccountLoginResult
+[LOGIN] <-- AccountSecretQuestion
+[LOGIN] --> GetOwnServerList
+[LOGIN] <-- OwnServerList
+[LOGIN] --> SelectServer
+[LOGIN] <-- PlainSelectServerResult
+[GAME] <-- GameServerHello
+[GAME] --> ClientTicket
+[GAME] <-- ClientTicketResult
+[GAME] --> UseClientKey
+[GAME] --> GetRegionalVersion
+[GAME] <-- BasicNoResponse
+[GAME] <-- RegionalVersion
+[GAME] --> GetGiftList
+[GAME] --> ClientId
+[GAME] --> GetCharacterList
+[GAME] --> GetQueuePosition
+[GAME] <-- BasicNoResponse
+[GAME] <-- BasicNoResponse
+[GAME] <-- BasicNoResponse
+[GAME] <-- QueuePosition
+[GAME] <-- CharacterList
+[GAME] --> SelectCharacter
+[GAME] --> GetQueuePosition
+[GAME] <-- BasicNoResponse
+[GAME] <-- MountXp
+[GAME] <-- SelectCharacterResult
+[GAME] <-- UpdateEquippedItemSet
+[GAME] <-- UpdateEquippedItemSet
+[GAME] <-- EmoteList
+[GAME] <-- AlignmentSpecialization
+[GAME] <-- SubscribeChatChannelState
+[GAME] <-- SubAreaList
+[GAME] <-- CanShowAllSpellOption
+[GAME] <-- SpellList
+[GAME] <-- CharacterRestrictions
+[GAME] <-- InventoryWeight
+[GAME] <-- NotifyFriendConnectionOption
+[GAME] <-- InfoMessage (189)
+[GAME] <-- InfoMessage (0152)
+[GAME] <-- InfoMessage (0153)
+[GAME] <-- QueueDetails
+[GAME] --> StartGame
+[GAME] <-- StartGameResult
+[GAME] <-- CharacterStats
+[GAME] <-- StartRestoreLife
+[GAME] <-- MapDetails
+[GAME] <-- BasicReferenceTime
+[GAME] <-- FightCount
+[GAME] --> GetBasicDate
+[GAME] <-- BasicDate
+[GAME] --> GetGameDetails
+[GAME] <-- HouseDoorDetails
+[GAME] <-- PaddockDetails
+[GAME] <-- UpdateCellExternalObject
+[GAME] <-- UpdateEntityList (characters)
+[GAME] <-- UpdateEntityList (monsterGroups)
+[GAME] <-- UpdateEntityList (npcs)
+[GAME] <-- UpdateEntityList (offlineCharacters)
+[GAME] <-- UpdateEntityList (taxCollector)
+[GAME] <-- UpdateEntityList (paddockMounts)
+[GAME] <-- UpdateEntityList (prism)
+[GAME] <-- MapLoaded
+[GAME] <-- CraftPublicModeOption
